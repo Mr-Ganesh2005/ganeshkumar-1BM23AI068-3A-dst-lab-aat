@@ -1,4 +1,4 @@
-#!/bin/python3
+
 
 import math
 import os
@@ -6,15 +6,8 @@ import random
 import re
 import sys
 
-#
-# Complete the 'isBalanced' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts STRING expression as parameter.
-#
-
 def isBalanced(expression):
-    # Write your code here
+
     map = {')': '(', '}': '{', ']': '['}
     stack = []
     for c in expression:
